@@ -510,3 +510,52 @@ var spaces = [
         "url":"http://colab-factory.com"
     }
 ]
+//Angular App Module and Controller
+angular.module('mapsApp', [])
+.controller('MapCtrl', function ($scope) {
+
+    var mapOptions = {
+        zoom: 13,
+        center: new google.maps.LatLng(40.7399443, -73.9910549),
+        mapTypeId: google.maps.MapTypeId.TERRAIN,
+    }
+
+    var mapElement = document.getElementById('map');
+
+    $scope.map = new google.maps.Map(mapElement, mapOptions);
+
+    $scope.markers = [];
+    
+    var infoWindow = new google.maps.InfoWindow();
+    
+    var createMarker = function (info){
+        
+        var marker = new google.maps.Marker({
+            map: $scope.map,
+            position: new google.maps.LatLng(info.lat, info.lng),
+            title: info.name
+        });
+
+        marker.url = info.url; 
+
+        marker.content = '<div class="infoWindowContent">' + info.address + '<br>' + '<a href="' + info.url + '" target="_blank">' + info.url + '</a>' + '</div>';
+
+        google.maps.event.addListener(marker, 'click', function(){
+            infoWindow.setContent('<h3>' + marker.title + '</h3>' + marker.content);
+            infoWindow.open($scope.map, marker);
+        });
+        
+        $scope.markers.push(marker);
+        
+    }  
+    
+    for (i = 0; i < spaces.length; i++){
+        createMarker(spaces[i]);
+    }
+
+    $scope.openInfoWindow = function(e, selectedMarker){
+        e.preventDefault();
+        google.maps.event.trigger(selectedMarker, 'click');
+    }
+
+});

@@ -7,6 +7,27 @@
 	<script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
-	
+	<div ng-app="mapsApp" ng-controller="MapCtrl" id="main">	
+			<div class="col2">
+				<div class="scroll-box">
+					<ul>
+						<h2 class="logo"><a href="http://newworker.co">New Worker Magazine</a></h2>
+						<h1>Map of every coworking space in greater NYC</h1>
+						<li>Map last updated on <span style="color:#000">2/12/16</span></li>
+						<li>Data available as a JSON payload</li>
+						<li>To add a space, email us the URL</li>
+						<li>Let us know if something's out of date</li>
+						<li><span style="color:#000"><a href="mailto:info@newworker.co">info@newworker.co</a></span></li>
+					</ul>
+				    <div ng-repeat="marker in markers | orderBy : 'title'">
+				        <p><a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}</a> <span class="url"><a href="{{marker.url}}" target="_blank"><img src="external-link.jpg" width="11px"></a></span><br/><span class="address">{{marker.address}}</span></p>
+				    </div>
+				</div>
+			</div>
+			<div class="col1">
+	    		<div id="map">
+	    		</div>
+	    	</div>
+	</div>
 </body>
 </html>
