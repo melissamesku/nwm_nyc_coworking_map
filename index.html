@@ -1,18 +1,20 @@
-<!DOCTYPE html>
+
 <html>
 <head>
 	<title>Every coworking space in greater NYC - map</title>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/icons.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	<div ng-app="mapsApp" ng-controller="MapCtrl" id="main">	
+	<div ng-app="mapsApp" ng-controller="MapCtrl">	
 		<div class="col1">
 			<div class="scroll-box">
 				<ul>
-					<h2 class="logo"><a href="http://newworker.co">New Worker Magazine</a></h2>
-					<h1>Map of every coworking space in greater NYC</h1>
+				<h2 class="logo"><a href="http://newworker.co">New Worker Magazine</a></h2>
+				<h1>Map of every coworking space in greater NYC</h1>
 					<li>Map last updated on <span style="color:#000">2/12/16</span></li>
 					<li>Data available as a JSON payload</li>
 					<li>To add a space, email us the URL</li>
@@ -24,6 +26,7 @@
 			    </div>
 			</div>
 		</div>
+
 		<div class="col2">
     		<div id="map">
     		</div>
@@ -38,5 +41,7 @@
 			</div>
     	</div>
 	</div>
+<script src="js/classie.js"></script>
+<script src="js/borderMenu.js"></script>
 </body>
 </html>
