@@ -347,7 +347,7 @@ var spaces = [
         "name":"Spaces - Long Island City",
         "lat":40.7427897,
         "lng":-73.9355578,
-        "address":"31-00 47th Avenue, 3rd Floor, Long Island City, NY 11101",
+        "address":"31-00 47th Ave, 3rd Floor, Long Island City, NY 11101",
         "url":"http://www.spacesworks.com/location/new-york-city/long-island-city"
     },
     {
@@ -368,7 +368,7 @@ var spaces = [
         "name":"Grind - Park",
         "lat":40.7436697,
         "lng":-73.98352129999999,
-        "address":"419 Park Avenue S, 2nd Floor, New York, NY 10016",
+        "address":"419 Park Ave S, 2nd Floor, New York, NY 10016",
         "url":"http://grindspaces.com"
     },
     {
@@ -584,7 +584,7 @@ var spaces = [
         "name":"WeWork - Park South",
         "lat":40.742917,
         "lng":-73.983892,
-        "address":"401 Park Avenue S, 10th Floor, New York, NY 10016",
+        "address":"401 Park Ave S, 10th Floor, New York, NY 10016",
         "url":"https://www.wework.com/locations/new-york-city/park-south"
     },
     {
@@ -805,13 +805,6 @@ var spaces = [
         "url":"http://www.collab-orators.com"
     },
     {
-        "name":"42 West 24",
-        "lat":40.743050,
-        "lng":-73.991599,
-        "address":"42 West 24th St, New York, NY 10013",
-        "url":"http://42west24.com"
-    },
-    {
         "name":"Powder Keg (women writers)",
         "lat":40.687727,
         "lng":-73.979800,
@@ -859,10 +852,168 @@ var spaces = [
 angular.module('mapsApp', [])
 .controller('MapCtrl', function ($scope) {
 
+    var styleArray = [ // everything enclosed in this var is just map styling thanks to snazzymaps
+
+        {
+            featureType: "administrative.locality",
+            elementType: "all",
+            stylers: [
+                {
+                    visibility: "simplified"
+                },
+                {
+                    color: "#000000"
+                }
+            ]
+        },
+        {
+            featureType: "landscape",
+            elementType: "all",
+            stylers: [
+                {
+                    visibility: "simplified"
+                },
+                {
+                    color: "#ededed"
+                }
+            ]
+        },
+        {
+            featureType: "poi",
+            elementType: "all",
+            stylers: [
+                {
+                    hue: "#ff0000"
+                },
+                {
+                    saturation: -100
+                },
+                {
+                    lightness: 100
+                },
+                {
+                    visibility: "off"
+                }
+            ]
+        },
+        {
+            featureType: "road",
+            elementType: "geometry",
+            stylers: [
+                {
+                    visibility: "simplified"
+                },
+                {
+                    color: "#a9a4a4"
+                },
+                {
+                    weight: "1"
+                }
+            ]
+        },
+        {
+            featureType: "road",
+            elementType: "labels",
+            stylers: [
+                {
+                    hue: "#008eff"
+                },
+                {
+                    saturation: -93
+                },
+                {
+                    lightness: 31
+                },
+                {
+                    visibility: "on"
+                }
+            ]
+        },
+        {
+            featureType: "road",
+            elementType: "labels.text",
+            stylers: [
+                {
+                    color: "#000000"
+                },
+                {
+                    visibility: "simplified"
+                }
+            ]
+        },
+        {
+            featureType: "road.arterial",
+            elementType: "labels",
+            stylers: [
+                {
+                    hue: "#008eff"
+                },
+                {
+                    saturation: -93
+                },
+                {
+                    lightness: -2
+                },
+                {
+                    visibility: "simplified"
+                }
+            ]
+        },
+        {
+            featureType: "road.local",
+            elementType: "geometry",
+            stylers: [
+                {
+                    hue: "#007fff"
+                },
+                {
+                    saturation: -90
+                },
+                {
+                    lightness: -8
+                },
+                {
+                    visibility: "simplified"
+                }
+            ]
+        },
+        {
+            featureType: "transit",
+            elementType: "all",
+            stylers: [
+                {
+                    hue: "#e9ebed"
+                },
+                {
+                    saturation: 10
+                },
+                {
+                    lightness: 69
+                },
+                {
+                    visibility: "on"
+                }
+            ]
+        },
+        {
+            featureType: "water",
+            elementType: "all",
+            stylers: [
+                {
+                    visibility: "simplified"
+                },
+                {
+                    color: "#ffffff"
+                }
+            ]
+        }
+    ];
+
     var mapOptions = {
-        zoom: 13,
-        center: new google.maps.LatLng(40.7399443, -73.9910549),
+        zoom: 12,
+        center: new google.maps.LatLng(40.7285182, -73.9592832),
         mapTypeId: google.maps.MapTypeId.TERRAIN,
+        styles: styleArray
     }
 
     var mapElement = document.getElementById('map');
@@ -880,13 +1031,12 @@ angular.module('mapsApp', [])
             position: new google.maps.LatLng(info.lat, info.lng),
             title: info.name
         });
-
-        // for printing info in the scrolling box of info div, not in the map
+        //I made this, trying to print info on screen NOT in the map
         marker.address = info.address;
 
         marker.url = info.url; 
 
-        marker.content = '<div class="infoWindowContent">' + info.address + '<br>' + '<a href="' + info.url + '" target="_blank">' + info.url + '</a>' + '</div>';
+        marker.content = '<div class="infoWindowContent"><p>' + info.address + '<br/>' +'<a href="' + info.url + '" target="_blank">' + info.url + '</a>' + '</p></div>';
 
         google.maps.event.addListener(marker, 'click', function(){
             infoWindow.setContent('<h3>' + marker.title + '</h3>' + marker.content);

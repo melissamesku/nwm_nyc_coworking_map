@@ -205,7 +205,7 @@ span.address {
 	.scroll-box li {
 		font-size: .7em;
 	}
-	.col2 .social ul li {
+	.column2 .social ul li {
 		padding-left: 10px;
 	}
 }
@@ -220,37 +220,40 @@ span.address {
 	.scroll-box p {
 		font-size: .8em;
 	}
-	.col2 .social ul li {
+	.column2 .social ul li {
 		font-size: 1.2em;
 		padding-left: 8px;
 	}
 
 }
 @media all and (max-width: 610px) {
-	.col1 {
+	.column1 {
 		width:40%;
 	}
-	.col2 {
+	.column2 {
 		width: 60%;
 	}
-	.col2 .social ul li {
-		/**/
+	.column2 .social ul li {
+		font-size: 1em;
+	}
+	.column2 .social .li-text {
+		font-size: .6em;
 	}
 }
 @media all and (max-width: 510px) {
-	.col1 {
+	.column1 {
 		float: none;
 		display: block;
 		width: 100%;
 		height: 340px;
 	}
-	.col2 {
+	.column2 {
 		float: none;
 		display: block;
 		width: 100%;
 	}
 	#map {
-		height: 300px;
+		height: 280px;
 	}
 	.scroll-box {
 		height: 100%;
@@ -268,18 +271,16 @@ span.address {
 	h3, .infoWindowContent p {
 		font-size: .9em;
 	}
-	 
+	.column2 .social ul li {
+		font-size: 1.4em;
+		padding-left: 9px;
+	}
+	.column2 .social .li-text {
+		font-size: .7em;
+	}
 }
 
 
-@media all and (max-height: 700px) {
-	#map {
-		height: 92%;
-	}
-	footer {
-		height:8%;
-	}
-}
 @media all and (max-height: 620px) {
 	#map {
 		height: 91%;
@@ -295,7 +296,7 @@ span.address {
 }
 @media all and (max-height: 450px) {
 	#map {
-		height: 88%;
+		height: 40%;
 	}
-}
+}*/
 
