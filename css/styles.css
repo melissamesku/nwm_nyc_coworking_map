@@ -8,17 +8,6 @@ body, html {
 	margin:0;
 	height: 100%;
 }
-.col1 {
-	width: 66%;
-	height: 100%;
-	float: left;
-}
-.col2 {
-	width: 34%;
-	height: 100%;
-	float: left;
-	background-color: #fff;
-}
 #map {
 	height:93%;
 	width: 100%;
@@ -64,4 +53,47 @@ body, html {
 	margin: 0;
 	padding: 3px;
 	font-size: .9em;
+}
+.infoWindowContent {
+    font-size:  14px !important;
+    font-family: 'Montserrat';
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    color:#666;
+}
+.infoWindowContent a{
+    font-size: .8em;
+}
+.infoWindowContent a:hover{
+    color:#000;
+}
+.col1 {
+	width: 34%;
+	height: 100%;
+	float: left;
+	background-color: #fff;
+}
+.col2 {
+	width: 66%;
+	height: 100%;
+	float: left;
+}
+.col2 p {
+	display: inline;
+	font-size: .8em;
+	color:#ccc;
+}
+.col2 ul li {
+	float: right;
+	font-size: 1.6em;
+	padding-left: 30px;
+}
+.col2 span.social-text{
+	color: #fff;
+	font-size: .2;
+}
+.col2 .li-text {
+	font-size: .8em;
+	color:#ccc;
+	max-width: 300px;
 }

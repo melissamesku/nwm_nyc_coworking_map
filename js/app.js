@@ -508,8 +508,163 @@ var spaces = [
         "lng":-73.9820896,
         "address":"14-16 Dekalb Ave, Brooklyn, NY 11201",
         "url":"http://colab-factory.com"
+    },
+    {
+        "name":"WeWork - Times Square",
+        "lat":40.7551055,
+        "lng":-73.9884033,
+        "address":"1460 Broadway, New York, NY 10036",
+        "url":"https://www.wework.com/locations/new-york-city/times-square"
+    },
+    {
+        "name":"WeWork - Studio Square",
+        "lat":40.7549673,
+        "lng":-73.9273272,
+        "address":"3537 36th Street, Astoria, NY 11106",
+        "url":"https://www.wework.com/locations/new-york-city/studio-square"
+    },
+    {
+        "name":"WeWork - NoMad",
+        "lat":40.7440668,
+        "lng":-73.9874162,
+        "address":"79 Madison Ave, New York, NY 10016",
+        "url":"https://www.wework.com/locations/new-york-city/nomad"
+    },
+    {
+        "name":"WeWork - FiDi",
+        "lat":40.7040802,
+        "lng":-74.0134361,
+        "address":"85 Broad St, New York, NY 10004",
+        "url":"https://www.wework.com/locations/new-york-city/fidi"
+    },
+    {
+        "name":"WeWork - Wall Street",
+        "lat":40.7040798,
+        "lng":-74.0200291,
+        "address":"110 Wall St, New York, NY 10005",
+        "url":"https://www.wework.com/locations/new-york-city/wall-street"
+    },
+    {
+        "name":"WeWork - 42nd Street",
+        "lat":40.7055793,
+        "lng":-74.0227367,
+        "address":"205 E 42nd St, New York, NY 10017",
+        "url":"https://www.wework.com/locations/new-york-city/42nd-street"
+    },
+    {
+        "name":"WeWork - Soho West",
+        "lat":40.7055787,
+        "lng":-74.0227796,
+        "address":"175 Varick Street, New York, NY 10014",
+        "url":"https://www.wework.com/locations/new-york-city/soho-west"
+    },
+    {
+        "name":"WeWork - Bryant Park",
+        "lat":40.7530146,
+        "lng":-73.9864596,
+        "address":"54 W 40th Street, New York, NY 10018",
+        "url":"https://www.wework.com/locations/new-york-city/bryant-park"
+    },
+    {
+        "name":"WeWork - Fulton Center",
+        "lat":40.7109906,
+        "lng":-74.0106385,
+        "address":"222 Broadway, 19th Floor, New York, NY 10038",
+        "url":"https://www.wework.com/locations/new-york-city/fulton-center"
+    },
+    {
+        "name":"WeWork - Chelsea",
+        "lat":40.7403679,
+        "lng":-73.997841,
+        "address":"115 W 18th St, New York, NY 10011",
+        "url":"https://www.wework.com/locations/new-york-city/chelsea"
+    },
+    {
+        "name":"WeWork - West Broadway",
+        "lat":40.7235234,
+        "lng":-74.0044022,
+        "address":"379 West Broadway, 2nd Floor, New York, NY 10012",
+        "url":"https://www.wework.com/locations/new-york-city/west-broadway"
+    },
+    {
+        "name":"WeWork - Park South",
+        "lat":40.7403679,
+        "lng":-73.9978357,
+        "address":"401 Park Avenue South, 10th Floor, New York, NY 10016",
+        "url":"https://www.wework.com/locations/new-york-city/park-south"
+    },
+    {
+        "name":"WeWork - Gramercy",
+        "lat":40.739496,
+        "lng":-73.987914,
+        "address":"120 E 23rd St, New York, NY 10010",
+        "url":"https://www.wework.com/locations/new-york-city/gramercy"
+    },
+    {
+        "name":"WeWork - Soho",
+        "lat":40.7394956,
+        "lng":-73.994507,
+        "address":"154 Grand St., New York, NY 10013",
+        "url":"https://www.wework.com/locations/new-york-city/soho"
+    },
+    {
+        "name":"WeWork - Madison",
+        "lat":40.739495,
+        "lng":-73.9945499,
+        "address":"261 Madison Avenue, New York, NY 10016",
+        "url":"https://www.wework.com/locations/new-york-city/madison"
+    },
+    {
+        "name":"WeWork - Empire State",
+        "lat":40.7481713,
+        "lng":-73.9865472,
+        "address":"349 5th Avenue, New York, NY 10016",
+        "url":"https://www.wework.com/locations/new-york-city/empire-state"
+    },
+    {
+        "name":"WeWork - Meatpacking",
+        "lat":40.7481709,
+        "lng":-73.9931402,
+        "address":"1 Little West 12th Street, New York, NY 10014",
+        "url":"https://www.wework.com/locations/new-york-city/meatpacking"
+    },
+    {
+        "name":"WeWork - Williamsburg",
+        "lat":40.7165905,
+        "lng":-73.9628195,
+        "address":"240 Bedford Ave, Brooklyn, NY 11249",
+        "url":"https://www.wework.com/locations/new-york-city/williamsburg"
+    },
+    {
+        "name":"WeWork - John St.",
+        "lat":40.7165851,
+        "lng":-73.9957418,
+        "address":"11 John St, New York, NY 10038",
+        "url":"https://www.wework.com/locations/new-york-city/john-st"
+    },
+    {
+        "name":"WeWork - Brooklyn Heights",
+        "lat":40.7008392,
+        "lng":-73.9896424,
+        "address":"195 Montague Street, Brooklyn, NY 11201",
+        "url":"https://www.wework.com/locations/new-york-city/brooklyn-heights"
+    },
+    {
+        "name":"WeWork - Irving Place",
+        "lat":40.7008179,
+        "lng":-74.0576,
+        "address":"33 Irving Pl, New York, NY 10003",
+        "url":"https://www.wework.com/locations/new-york-city/irving-place"
+    },
+    {
+        "name":"WeWork - Soho South",
+        "lat":40.7007756,
+        "lng":-74.0580153,
+        "address":"428 Broadway, New York, NY 10013",
+        "url":"https://www.wework.com/locations/new-york-city/soho-south"
     }
 ]
+
 //Angular App Module and Controller
 angular.module('mapsApp', [])
 .controller('MapCtrl', function ($scope) {
@@ -535,6 +690,9 @@ angular.module('mapsApp', [])
             position: new google.maps.LatLng(info.lat, info.lng),
             title: info.name
         });
+
+        // for printing info in the scrolling box of info div, not in the map
+        marker.address = info.address;
 
         marker.url = info.url; 
 
