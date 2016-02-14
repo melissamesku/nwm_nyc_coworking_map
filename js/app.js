@@ -309,7 +309,7 @@ var spaces = [
         "url":"http://youoffice.com/50-glen"
     },
     {
-        "name":"Spark Lab",
+        "name":"Spark Labs",
         "lat":40.733915,
         "lng":-73.9913167,
         "address":"833 Broadway, New York, NY 10003",
@@ -368,7 +368,7 @@ var spaces = [
         "name":"Grind - Park",
         "lat":40.7436697,
         "lng":-73.98352129999999,
-        "address":"419 Park Avenue South, 2nd Floor, New York, NY 10016",
+        "address":"419 Park Avenue S, 2nd Floor, New York, NY 10016",
         "url":"http://grindspaces.com"
     },
     {
@@ -422,7 +422,7 @@ var spaces = [
     {
         "name":"You Office - Cedarhurst",
         "lat":40.619452,"lng":-73.726148,
-        "address":"91 Carman Avenue, Suite 500, Cedarhurst, NY 11516",
+        "address":"91 Carman Ave, Suite 500, Cedarhurst, NY 11516",
         "url":"http://youoffice.com"
     },
     {
@@ -464,7 +464,7 @@ var spaces = [
         "name":"Wendy's Subway",
         "lat":40.704080,
         "lng":-73.938008,
-        "address":"379 Bushwick Avenue, Brooklyn, NY 11206",
+        "address":"379 Bushwick Ave, Brooklyn, NY 11206",
         "url":"http://www.wendyssubway.com"
     },
     {
@@ -485,21 +485,21 @@ var spaces = [
         "name":"Work Better - Chelsea",
         "lat":40.7399802,
         "lng":-73.9930291,
-        "address":"33 West 19th St. 4th Floor, New York, NY 10011",
+        "address":"33 West 19th St, 4th Floor, New York, NY 10011",
         "url":"https://workbetter.us"
     },
     {
         "name":"Work Better - Wall Street",
         "lat":40.70690829999999,
         "lng":-74.0096853,
-        "address":"40 Wall St. 28th Floor, New York, NY 10005",
+        "address":"40 Wall St, 28th Floor, New York, NY 10005",
         "url":"https://workbetter.us"
     },
     {
         "name":"Work Better - Grand Central West",
         "lat":40.7561507,
         "lng":-73.9827042,
-        "address":"1140 Sixth Avenue, 9th Floor, New York, NY 10036",
+        "address":"1140 Sixth Ave, 9th Floor, New York, NY 10036",
         "url":"https://workbetter.us"
     },
     {
@@ -511,157 +511,276 @@ var spaces = [
     },
     {
         "name":"WeWork - Times Square",
-        "lat":40.7551055,
-        "lng":-73.9884033,
+        "lat":40.755114,
+        "lng":-73.986220,
         "address":"1460 Broadway, New York, NY 10036",
         "url":"https://www.wework.com/locations/new-york-city/times-square"
     },
     {
         "name":"WeWork - Studio Square",
-        "lat":40.7549673,
-        "lng":-73.9273272,
-        "address":"3537 36th Street, Astoria, NY 11106",
+        "lat":40.755203,
+        "lng":-73.925133,
+        "address":"3537 36th St, Astoria, NY 11106",
         "url":"https://www.wework.com/locations/new-york-city/studio-square"
     },
     {
         "name":"WeWork - NoMad",
-        "lat":40.7440668,
-        "lng":-73.9874162,
+        "lat":40.744083,
+        "lng":-73.985244,
         "address":"79 Madison Ave, New York, NY 10016",
         "url":"https://www.wework.com/locations/new-york-city/nomad"
     },
     {
         "name":"WeWork - FiDi",
-        "lat":40.7040802,
-        "lng":-74.0134361,
+        "lat":40.704016,
+        "lng":-74.011070,
         "address":"85 Broad St, New York, NY 10004",
         "url":"https://www.wework.com/locations/new-york-city/fidi"
     },
     {
         "name":"WeWork - Wall Street",
-        "lat":40.7040798,
-        "lng":-74.0200291,
+        "lat":40.704929,
+        "lng":-74.006425,
         "address":"110 Wall St, New York, NY 10005",
         "url":"https://www.wework.com/locations/new-york-city/wall-street"
     },
     {
         "name":"WeWork - 42nd Street",
-        "lat":40.7055793,
-        "lng":-74.0227367,
+        "lat":40.750800,
+        "lng":-73.973689,
         "address":"205 E 42nd St, New York, NY 10017",
         "url":"https://www.wework.com/locations/new-york-city/42nd-street"
     },
     {
         "name":"WeWork - Soho West",
-        "lat":40.7055787,
-        "lng":-74.0227796,
-        "address":"175 Varick Street, New York, NY 10014",
+        "lat":40.727423,
+        "lng":-74.005990,
+        "address":"175 Varick St, New York, NY 10014",
         "url":"https://www.wework.com/locations/new-york-city/soho-west"
     },
     {
         "name":"WeWork - Bryant Park",
-        "lat":40.7530146,
-        "lng":-73.9864596,
-        "address":"54 W 40th Street, New York, NY 10018",
+        "lat":40.752980,
+        "lng":-73.984206,
+        "address":"54 W 40th St, New York, NY 10018",
         "url":"https://www.wework.com/locations/new-york-city/bryant-park"
     },
     {
         "name":"WeWork - Fulton Center",
-        "lat":40.7109906,
-        "lng":-74.0106385,
+        "lat":40.710976,
+        "lng":-74.008461,
         "address":"222 Broadway, 19th Floor, New York, NY 10038",
         "url":"https://www.wework.com/locations/new-york-city/fulton-center"
     },
     {
         "name":"WeWork - Chelsea",
-        "lat":40.7403679,
-        "lng":-73.997841,
+        "lat":40.740376,
+        "lng":-73.995636,
         "address":"115 W 18th St, New York, NY 10011",
         "url":"https://www.wework.com/locations/new-york-city/chelsea"
     },
     {
         "name":"WeWork - West Broadway",
-        "lat":40.7235234,
-        "lng":-74.0044022,
+        "lat":40.723568,
+        "lng":-74.002181,
         "address":"379 West Broadway, 2nd Floor, New York, NY 10012",
         "url":"https://www.wework.com/locations/new-york-city/west-broadway"
     },
     {
         "name":"WeWork - Park South",
-        "lat":40.7403679,
-        "lng":-73.9978357,
-        "address":"401 Park Avenue South, 10th Floor, New York, NY 10016",
+        "lat":40.742917,
+        "lng":-73.983892,
+        "address":"401 Park Avenue S, 10th Floor, New York, NY 10016",
         "url":"https://www.wework.com/locations/new-york-city/park-south"
     },
     {
         "name":"WeWork - Gramercy",
-        "lat":40.739496,
-        "lng":-73.987914,
+        "lat":40.739504,
+        "lng":-73.985720,
         "address":"120 E 23rd St, New York, NY 10010",
         "url":"https://www.wework.com/locations/new-york-city/gramercy"
     },
     {
         "name":"WeWork - Soho",
-        "lat":40.7394956,
-        "lng":-73.994507,
-        "address":"154 Grand St., New York, NY 10013",
+        "lat":40.720211,
+        "lng":-73.998676,
+        "address":"154 Grand St, New York, NY 10013",
         "url":"https://www.wework.com/locations/new-york-city/soho"
     },
     {
         "name":"WeWork - Madison",
-        "lat":40.739495,
-        "lng":-73.9945499,
-        "address":"261 Madison Avenue, New York, NY 10016",
+        "lat":40.750495,
+        "lng":-73.980616,
+        "address":"261 Madison Ave, New York, NY 10016",
         "url":"https://www.wework.com/locations/new-york-city/madison"
     },
     {
         "name":"WeWork - Empire State",
-        "lat":40.7481713,
-        "lng":-73.9865472,
-        "address":"349 5th Avenue, New York, NY 10016",
+        "lat":40.748130,
+        "lng":-73.984388,
+        "address":"349 5th Ave, New York, NY 10016",
         "url":"https://www.wework.com/locations/new-york-city/empire-state"
     },
     {
         "name":"WeWork - Meatpacking",
-        "lat":40.7481709,
-        "lng":-73.9931402,
-        "address":"1 Little West 12th Street, New York, NY 10014",
+        "lat":40.739677,
+        "lng":-74.005928,
+        "address":"1 Little West 12th St, New York, NY 10014",
         "url":"https://www.wework.com/locations/new-york-city/meatpacking"
     },
     {
         "name":"WeWork - Williamsburg",
-        "lat":40.7165905,
-        "lng":-73.9628195,
+        "lat":40.716187,
+        "lng":-73.959849,
         "address":"240 Bedford Ave, Brooklyn, NY 11249",
         "url":"https://www.wework.com/locations/new-york-city/williamsburg"
     },
     {
         "name":"WeWork - John St.",
-        "lat":40.7165851,
-        "lng":-73.9957418,
+        "lat":40.710208,
+        "lng":-74.009131,
         "address":"11 John St, New York, NY 10038",
         "url":"https://www.wework.com/locations/new-york-city/john-st"
     },
     {
         "name":"WeWork - Brooklyn Heights",
-        "lat":40.7008392,
-        "lng":-73.9896424,
-        "address":"195 Montague Street, Brooklyn, NY 11201",
+        "lat":40.694244,
+        "lng":-73.991671,
+        "address":"195 Montague St, Brooklyn, NY 11201",
         "url":"https://www.wework.com/locations/new-york-city/brooklyn-heights"
     },
     {
         "name":"WeWork - Irving Place",
-        "lat":40.7008179,
-        "lng":-74.0576,
+        "lat":40.735134,
+        "lng":-73.988078,
         "address":"33 Irving Pl, New York, NY 10003",
         "url":"https://www.wework.com/locations/new-york-city/irving-place"
     },
     {
         "name":"WeWork - Soho South",
-        "lat":40.7007756,
-        "lng":-74.0580153,
+        "lat":40.719628,
+        "lng":-74.001223,
         "address":"428 Broadway, New York, NY 10013",
         "url":"https://www.wework.com/locations/new-york-city/soho-south"
+    },
+    {
+        "name":"The Harlem Collective",
+        "lat":40.830416,
+        "lng":-73.943947,
+        "address":"1867 Amsterdam Ave, New York, NY 10031",
+        "url":"http://www.theharlemcollective.co"
+    },
+    {
+        "name":"Serendipity Labs - Midtown",
+        "lat":40.755557,
+        "lng":-73.982821,
+        "address":"1120 Ave of the Americas, New York, NY 10036",
+        "url":"http://serendipitylabs.com/locations/midtown-nyc-coworking"
+    },
+    {
+        "name":"qLabs",
+        "lat":40.741050,
+        "lng":-73.991429,
+        "address":"16 West 22nd St, 6th Floor, New York, NY 10010",
+        "url":"http://labs.quotidian.co"
+    },
+    {
+        "name":"Rise",
+        "lat":40.742614,
+        "lng":-73.991085,
+        "address":"43 W 23rd St, 2nd Floor, New York, NY 10010",
+        "url":"https://thinkrise.com/newyork"
+    },
+    {
+        "name":"Ledian Space",
+        "lat":40.742133,
+        "lng":-73.984461,
+        "address":"373 Park Ave S, 6th Floor, New York, NY 10016",
+        "url":"http://www.ledianspace.com"
+    },
+    {
+        "name":"WeCreate",
+        "lat":40.732761,
+        "lng":-73.992575,
+        "address":"58 E 11th St, 8th Floor, New York, NY 10003",
+        "url":"http://www.wecreatenyc.com"
+    },
+    {
+        "name":"LMHQ (club & event space)",
+        "lat":40.732761,
+        "lng":-73.992575,
+        "address":"150 Broadway, 20th Floor, New York, NY 10038",
+        "url":"http://www.wecreatenyc.com"
+    },
+    {
+        "name":"Vaan",
+        "lat":40.713291,
+        "lng":-73.951141,
+        "address":"5 Devoe St, 2nd Floor, Brooklyn, NY 11211",
+        "url":"http://www.vaangroup.com/workspace.html"
+    },
+    {
+        "name":"Bar Works",
+        "lat":40.752785,
+        "lng":-73.984507,
+        "address":"47 West 39th St, New York, NY 10018",
+        "url":"http://www.barworks.nyc"
+    },
+    {
+        "name":"Workville",
+        "lat":40.753622,
+        "lng":-73.986549,
+        "address":"1412 Broadway, 21st Floor, New York 10018",
+        "url":"http://workvillenyc.com"
+    },
+    {
+        "name":"TASCbar",
+        "lat":40.791789,
+        "lng":-73.940650,
+        "address":"309 East 108th St, #1A, New York, NY 10029",
+        "url":"http://www.tascbar.com"
+    },
+    {
+        "name":"BrooklynWorks at 159",
+        "lat":40.663807,
+        "lng":-73.995505,
+        "address":"159 20th St, #1B, Brooklyn, NY 11232",
+        "url":"http://www.brooklynworks159.com"
+    },
+    {
+        "name":"Brooklyn Explorers Academy (+childcare)",
+        "lat":40.690007,
+        "lng":-73.989488,
+        "address":"110 Schermerhorn St, Brooklyn NY 11201",
+        "url":"http://www.brooklynexplorersacademy.com/#!co-working/c23v0"
+    },
+    {
+        "name":"Techbox",
+        "lat":40.632804,
+        "lng":-74.078426,
+        "address":"75 Clinton St, Staten Island, NY 10304",
+        "url":"http://techbox.info"
+    },
+    {
+        "name":"Staten Island Makerspace",
+        "lat":40.626225,
+        "lng":-74.074463,
+        "address":"450 Front St, Staten Island, NY 10304",
+        "url":"http://www.makerspace.nyc"
+    },
+    {
+        "name":"AWS Pop-Up Loft",
+        "lat":40.722845,
+        "lng":-74.003712,
+        "address":"350 West Broadway, New York, NY 10013",
+        "url":"https://aws.amazon.com/start-ups/loft/ny-loft"
+    },
+    {
+        "name":"Wix Free Coworking Lounge",
+        "lat":40.744862,
+        "lng":-73.996734,
+        "address":"235 W 23rd St, New York, NY 10011",
+        "url":"http://www.wix.com/lounge/new-york#!co-working/c1cyv"
     }
 ]
 

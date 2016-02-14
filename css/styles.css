@@ -8,6 +8,54 @@ body, html {
 	margin:0;
 	height: 100%;
 }
+footer {
+	position: fixed;
+	bottom:0;
+	left: 0;
+	background-color: #eee;
+	width: 100%;
+	color: #000;
+	font-size: 11px;
+	/*font-family: 'Playfair Display';*/
+	padding: 3px;
+}
+.col1 {
+	width: 34%;
+	height: 100%;
+	float: left;
+	background-color: #fff;
+}
+.col2 {
+	width: 66%;
+	height: 100%;
+	float: left;
+}
+.col2 p {
+	display: inline;
+	font-size: .8em;
+	color:#ccc;
+}
+.col2 .social ul li {
+	float: right;
+	font-size: 1.4em;
+	padding-left: 20px;
+}
+.col2 .social span.social-text{
+	color: #fff;
+	font-size: .2;
+}
+.col2 .social .li-text {
+	font-size: .8em;
+	color:#ccc;
+	max-width: 300px;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus {
+	color: #fc4a14;
+}
 #map {
 	height:93%;
 	width: 100%;
@@ -15,18 +63,64 @@ body, html {
 	font-weight: 100;
 	border: 1px solid #ccc;
 }
+h1 {
+	padding: 20px 0 22px 10px;
+	font-size: 3em;
+	font-weight: 400;
+}
+h1, h2{
+	font-family: 'Playfair Display';
+    margin-bottom:0;
+    margin-top: 0;
+}
+h2.logo {
+	padding: 15px 0 10px 0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+h2.logo a{
+	text-decoration: none;
+	color: #fff;
+}
+h2.logo a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+h3 { 
+	font-family: 'Montserrat';
+	font-size: 18px;
+	margin: 1px 1px 1px 0;
+}
 .infoWindowContent {
     font-size:  14px !important;
     font-family: 'Montserrat';
     border-top: 1px solid #ccc;
     padding-top: 10px;
+    color:#666;
 }
 .infoWindowContent a{
-    color:#666;
+    font-size: .8em;
 }
 .infoWindowContent a:hover{
     color:#000;
 }
+
+
+span.url a{
+	font-size: .6em;
+	color: #ccc;
+	padding-left: 10px;
+}
+span.url a:hover {
+	color: #000;
+}
+span.address {
+	font-size: .8em;
+	font-weight: 100;
+	color:#ccc;
+}
+
+
 .scroll-box {
 	height: 100%;
 	overflow: scroll;
@@ -54,46 +148,17 @@ body, html {
 	padding: 3px;
 	font-size: .9em;
 }
-.infoWindowContent {
-    font-size:  14px !important;
-    font-family: 'Montserrat';
-    border-top: 1px solid #ccc;
-    padding-top: 10px;
-    color:#666;
+.scroll-box li {
+	/*border-top: 1px solid #eee;*/
+	padding-left: 5px;
 }
-.infoWindowContent a{
-    font-size: .8em;
-}
-.infoWindowContent a:hover{
-    color:#000;
-}
-.col1 {
-	width: 34%;
-	height: 100%;
-	float: left;
-	background-color: #fff;
-}
-.col2 {
-	width: 66%;
-	height: 100%;
-	float: left;
-}
-.col2 p {
-	display: inline;
-	font-size: .8em;
-	color:#ccc;
-}
-.col2 ul li {
-	float: right;
-	font-size: 1.6em;
-	padding-left: 30px;
-}
-.col2 span.social-text{
+.scroll-box li a:hover {
+	/*border-top: 1px solid #eee;*/
 	color: #fff;
-	font-size: .2;
 }
-.col2 .li-text {
-	font-size: .8em;
-	color:#ccc;
-	max-width: 300px;
+.scroll-box p {
+	padding-right: 15px;
+}
+.scroll-box h1 {
+	line-height: 1em;
 }
