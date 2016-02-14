@@ -15,7 +15,7 @@ var spaces = [
         "url":"http://www.thisistheworks.com"
     },
     {
-        "name":"New Work City - now closed",
+        "name":"New Work City (closed)",
         "lat":40.7189552,
         "lng":-74.0018388,
         "address":"412 Broadway #2, New York, NY 10013",
@@ -197,7 +197,7 @@ var spaces = [
         "url":"http://www.launchpads.co"
     },
     {
-        "name":"St. Lydia's Dinner Church and Co-working",
+        "name":"St Lydia's Dinner Church & Coworking",
         "lat":40.680357,
         "lng":-73.98952,
         "address":"304 Bond St, Brooklyn, NY 11231",
@@ -380,7 +380,8 @@ var spaces = [
     },
     {
         "name":"Cowork|rs - Flatiron",
-        "lat":40.7401285,"lng":-73.9855201,
+        "lat":40.7401285,
+        "lng":-73.9855201,
         "address":"115 E 23rd St, 3rd Floor, New York, NY 10010",
         "url":"http://cowork.rs/flatiron"
     },
@@ -440,14 +441,7 @@ var spaces = [
         "url":"http://www.districtcowork.com"
     },
     {
-        "name":"Q Labs",
-        "lat":40.7412079,
-        "lng":-73.9913107,
-        "address":"16 West 22nd St, New York, NY 10010",
-        "url":"http://labs.quotidian.co"
-    },
-    {
-        "name":"SPark Workshop Brooklyn [maker space]",
+        "name":"SPark Workshop Brooklyn [makerspace]",
         "lat":40.6578236,
         "lng":-74.0069737,
         "address":"33 34th St, Brooklyn, NY 11232",
@@ -781,6 +775,83 @@ var spaces = [
         "lng":-73.996734,
         "address":"235 W 23rd St, New York, NY 10011",
         "url":"http://www.wix.com/lounge/new-york#!co-working/c1cyv"
+    },
+    {
+        "name":"Orbital",
+        "lat":40.719080,
+        "lng":-73.985620,
+        "address":"155 Rivington St #2, New York, NY 10002",
+        "url":"http://orbital.nyc"
+    },
+    {
+        "name":"ReadyWork",
+        "lat":40.748625,
+        "lng":-73.994233,
+        "address":"231 W 29th St, #603, New York, NY 10001",
+        "url":"http://www.readywork.com"
+    },
+    {
+        "name":"Cowork|rs - FiDi",
+        "lat":40.705160,
+        "lng":-74.011750,
+        "address":"60 Broad St, New York, NY 10004",
+        "url":"http://cowork.rs/fidi"
+    },
+    {
+        "name":"Collab",
+        "lat":40.726165,
+        "lng":-74.007114,
+        "address":"304 Hudson St, 6th Floor, New York, NY 10013",
+        "url":"http://www.collab-orators.com"
+    },
+    {
+        "name":"42 West 24",
+        "lat":40.743050,
+        "lng":-73.991599,
+        "address":"42 West 24th St, New York, NY 10013",
+        "url":"http://42west24.com"
+    },
+    {
+        "name":"Powder Keg (women writers)",
+        "lat":40.687727,
+        "lng":-73.979800,
+        "address":"33 Flatbush Ave, 3rd Floor, Brooklyn, NY 11217",
+        "url":"http://brooklynpowderkeg.org"
+    },
+    {
+        "name":"Study Hall (journalists)",
+        "lat":40.707885,
+        "lng":-73.929205,
+        "address":"42 West 24th St, New York, NY 10013",
+        "url":"http://studyhall.xyz"
+    },
+    {
+        "name":"Paragraph (writers)",
+        "lat":40.736997,
+        "lng":-73.995213,
+        "address":"35 West 14th St, 3rd Floor, New York, NY 10011",
+        "url":"http://www.paragraphny.com"
+    },
+    {
+        "name":"In Good Company (women)",
+        "lat":40.741615,
+        "lng":-73.990435,
+        "address":"16 West 23rd St, 4th Floor, New York, NY 10010",
+        "url":"http://ingoodcompany.com/office-space"
+    },
+    {
+        "name":"ImpactHUB NYC",
+        "lat":40.718301,
+        "lng":-74.002276,
+        "address":"394 Broadway, New York, NY 10013",
+        "url":"http://nyc.impacthub.net/coworking"
+    },
+    {
+        "name":"The Studio Guild",
+        "lat":40.744564,
+        "lng":-73.989470,
+        "address":"18 West 27th Street, New York, NY 10001",
+        "url":"http://studioguild.org"
     }
 ]
 
