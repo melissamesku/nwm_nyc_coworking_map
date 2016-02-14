@@ -1007,7 +1007,7 @@ angular.module('mapsApp', [])
                 }
             ]
         }
-    ];
+    ]
 
     var mapOptions = {
         zoom: 12,
