@@ -168,6 +168,9 @@ span.address {
 	font-weight: 100;
 	color:#ccc;
 }
+span.address a:hover {
+	color: #ccc;
+}
 
 
 
@@ -222,7 +225,6 @@ span.address {
 	}
 	.column2 .social ul li {
 		font-size: 1.2em;
-		padding-left: 8px;
 	}
 
 }
@@ -237,7 +239,7 @@ span.address {
 		font-size: 1em;
 	}
 	.column2 .social .li-text {
-		font-size: .6em;
+		font-size: .7em;
 	}
 }
 @media all and (max-width: 510px) {
@@ -268,15 +270,11 @@ span.address {
 	.scroll-box li {
 		font-size: 1em;
 	}
+	.scroll-box p {
+		font-size: 1em;
+	}
 	h3, .infoWindowContent p {
 		font-size: .9em;
-	}
-	.column2 .social ul li {
-		font-size: 1.4em;
-		padding-left: 9px;
-	}
-	.column2 .social .li-text {
-		font-size: .7em;
 	}
 }
 

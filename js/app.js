@@ -479,7 +479,7 @@ var spaces = [
         "name":"Work Better - Chelsea",
         "lat":40.7399802,
         "lng":-73.9930291,
-        "address":"33 West 19th St, 4th Floor, New York, NY 10011",
+        "address":"33 W 19th St, 4th Floor, New York, NY 10011",
         "url":"https://workbetter.us"
     },
     {
@@ -675,7 +675,7 @@ var spaces = [
         "name":"qLabs",
         "lat":40.741050,
         "lng":-73.991429,
-        "address":"16 West 22nd St, 6th Floor, New York, NY 10010",
+        "address":"16 W 22nd St, 6th Floor, New York, NY 10010",
         "url":"http://labs.quotidian.co"
     },
     {
@@ -717,7 +717,7 @@ var spaces = [
         "name":"Bar Works",
         "lat":40.752785,
         "lng":-73.984507,
-        "address":"47 West 39th St, New York, NY 10018",
+        "address":"47 W 39th St, New York, NY 10018",
         "url":"http://www.barworks.nyc"
     },
     {
@@ -731,7 +731,7 @@ var spaces = [
         "name":"TASCbar",
         "lat":40.791789,
         "lng":-73.940650,
-        "address":"309 East 108th St, #1A, New York, NY 10029",
+        "address":"309 E 108th St, #1A, New York, NY 10029",
         "url":"http://www.tascbar.com"
     },
     {
@@ -815,21 +815,21 @@ var spaces = [
         "name":"Study Hall (journalists)",
         "lat":40.707885,
         "lng":-73.929205,
-        "address":"42 West 24th St, New York, NY 10013",
+        "address":"42 W 24th St, New York, NY 10013",
         "url":"http://studyhall.xyz"
     },
     {
         "name":"Paragraph (writers)",
         "lat":40.736997,
         "lng":-73.995213,
-        "address":"35 West 14th St, 3rd Floor, New York, NY 10011",
+        "address":"35 W 14th St, 3rd Floor, New York, NY 10011",
         "url":"http://www.paragraphny.com"
     },
     {
         "name":"In Good Company (women)",
         "lat":40.741615,
         "lng":-73.990435,
-        "address":"16 West 23rd St, 4th Floor, New York, NY 10010",
+        "address":"16 W 23rd St, 4th Floor, New York, NY 10010",
         "url":"http://ingoodcompany.com/office-space"
     },
     {
@@ -843,8 +843,22 @@ var spaces = [
         "name":"The Studio Guild",
         "lat":40.744564,
         "lng":-73.989470,
-        "address":"18 West 27th Street, New York, NY 10001",
+        "address":"18 W 27th Street, New York, NY 10001",
         "url":"http://studioguild.org"
+    },
+    {
+        "name":"The Purple Crayon",
+        "lat":40.993998,
+        "lng":-73.880051,
+        "address":"52 Main St, Hastings-on-Hudson, NY 10001",
+        "url":"http://www.purpl.org"
+    },
+    {
+        "name":"Ground Floor Coworking",
+        "lat":40.993998,
+        "lng":-73.880051,
+        "address":"547 North Ave, New Rochelle, NY 10801",
+        "url":"http://groundfloorcw.com"
     }
 ]
 
