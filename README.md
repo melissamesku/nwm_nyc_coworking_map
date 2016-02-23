@@ -1,8 +1,8 @@
 # nwm_nyc_coworking_map
 
-A comprehensive listing and interactive map of every coworking space in the NYC Metro Area, including the 5 boroughs of Manhattan plus nearby New Jersey, WestChester and Long Island.
+A comprehensive listing and interactive map of every coworking space in the NYC Metro Area, including the 5 boroughs of Manhattan plus nearby New Jersey, Westchester and Long Island.
 
-This resource is maintained by New Worker Magazine and welcomes open source collaboration.
+This resource was created in February 2016 and is hosted and maintained by New Worker Magazine. Open source collaboration welcome.
 
 
 Problem: There has never been a comprehensive map of greater NYC's coworking spaces. What maps exist are either incomplete, only focus on Manhattan locations, or are woefully out of date. 
@@ -22,4 +22,4 @@ User features:
 - External links in left column open additional tabs so users can research/explore coworking spaces without leaving the page
 
 
-Requests for data will be dealt with on an as-needed basis, just state your case in a friendly email. All other inquiries, feedback, bugs and updates please shoot us an email: info(at)newworker.co.
+Requests for data will be dealt with on an as-needed basis, just state your case in a friendly email. All other inquiries, feedback, bugs and updates please reach out: info(at)newworker.co.
