@@ -1,6 +1,11 @@
 
 <html>
 <head>
+	<meta charset="UTF-8">
+	<meta name="description" content="NYC coworking map 2016: A complete list and map of every coworking space and shared workspace in greater New York City">
+	<meta name="keywords" content="NYC coworking map, updated map of coworking spaces New York City, 2016 list of all shared workspaces in New York">
+	<meta name="author" content="Melissa Mesku, New Worker Magazine">
+	<meta name="robots" content="index, follow">
 	<title>Every coworking space in greater NYC - map</title>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js"></script>
@@ -28,14 +33,14 @@
 			<ul>
 				<h2 class="logo"><a href="http://newworker.co">New Worker Magazine</a></h2>
 				<h1>Map of every coworking space in greater NYC</h1>
-				<li>Map last updated on <span style="color:#000">2/15/16</span></li>
+				<li>Map last updated on <span style="color:#000">2/22/16</span></li>
 				<li>Data available as a JSON payload</li>
 				<li>To add a space, email us the URL</li>
-				<li>Let us know if something's out of date</li>
+				<li>If something's out of date let us know</li>
 				<li><span style="color:#000"><a href="mailto:info@newworker.co">info@newworker.co</a></span></li>
 			</ul>
 		    <div ng-repeat="marker in markers | orderBy : 'title'">
-		        <p><a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}</a> <span class="url"><a href="{{marker.url}}" target="_blank"><img src="images/external-link.jpg" width="14px"></a></span><br/><span class="address">{{marker.address}}</span></p>
+		        <p><a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}</a> <span class="url"><a href="{{marker.url}}" target="_blank"><img src="img/external-link.jpg" width="14px"></a></span><br/><span class="address">{{marker.address}}</span></p>
 		    </div>
 		</div>
 	</div>
@@ -45,7 +50,7 @@
 		</div>
 		<div class="social">
 			<ul>
-				<li class="li-text">&copy; 2016 New Worker Magazine <br>Map last updated on 2/15/16</li>
+				<li class="li-text">&copy; 2016 New Worker Magazine <br>Map last updated on 2/22/16</li>
 				<li><span class="social-text">.</span></li>
 				<li><a href="https://www.facebook.com/newworkermag" target="_blank" class="bt-icon icon-facebook"><span class="social-text">Facebook</span></a></li>
 				<li><a href="https://plus.google.com/115975213988217425122" target="_blank" class="bt-icon icon-gplus"><span class="social-text">Google+</span></a></li>
